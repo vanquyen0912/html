@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form> 
+        <label>What is your age range</label>
+        <select>
+            <option value="6-12">6-12</option>
+            <option value="12-18">12-18</option>
+            <option value="18-25">18-25</option>
+            <option value="25-34">25-34</option>
+        </select><br><br>
+        <label>What is our yearly income range</label>
+        <select>
+            <option value="$1-$50">$1-$50</option>
+            <option value="$50-$25000">$50-$25000</option>
+            <option value="$25000-$50000">$25000-$50000</option>
+        </select><br>
+        <label>Gender</label>
+        <form>
+            <input type="radio" name="gender" value="male" checked>Male
+            <input type="radio" name="gender" value="female">Female
+        </form><br>
+        <label>Which of the following....></label>
+        <form>
+            <input type="radio" name="product" value="product 1" checked>product 1
+            <input type="radio" name="product" value="product 2">product 2
+            <input type="radio" name="product" value="product 3">product 3
+        </form><br>
+        ,<label>How often</label>
+        <form>
+            <input type="radio" name="usually" value="Daily" checked>Daily
+            <input type="radio" name="usually" value="Weekly" >Weekly
+            <input type="radio" name="usually" value="Monthly" >Monthly
+        </form><br>
+        <strong>What would you pay</strong>
+        <table>
+            <tr>
+                <th>$</th>
+                <th><input type="text" name="dollars"></th>
+                <th>.</th>
+                <th><input type="text" name="cents"></th>
+            </tr>
+            <tr>
+                <td></td>
+                <td>dollars</td>
+                <td></td>
+                <td>cents</td>
+            </tr>
+        </table>
+        <strong>What features would you like to see in the new product</strong><br>
+        <textarea cols="100" rows="10"></textarea>
+
+
+    </form>
+</body>
+</html>
